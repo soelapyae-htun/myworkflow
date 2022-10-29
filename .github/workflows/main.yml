@@ -22,7 +22,7 @@ jobs:
     - name: List
       run: ls -al
     - name: checkout
-      run: actions/checkout@v3
+      uses: actions/checkout@v3
     - name: List
       run: ls -al
 
